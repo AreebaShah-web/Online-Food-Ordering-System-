@@ -12,7 +12,31 @@ Composite, Command, Observer, and Facade design patterns.
 - No external libraries required
 
 ## Folder Structure
-(see project tree above)
+(mention in project report)
+OnlineFoodOrderingSystem/
+│
+└─ src/
+   ├─ Main.java
+   ├─ menu/
+   │    ├─ MenuComponent.java
+   │    ├─ MenuItem.java
+   │    └─ MenuCategory.java
+   │
+   ├─ command/
+   │    ├─ OrderCommand.java
+   │    ├─ PlaceOrderCommand.java
+   │    ├─ CancelOrderCommand.java
+   │    └─ OrderInvoker.java
+   │
+   ├─ observer/
+   │    ├─ Observer.java
+   │    ├─ OrderSubject.java
+   │    ├─ RestaurantObserver.java
+   │    └─ DeliveryObserver.java
+   │
+   └─ facade/
+        └─ FoodOrderingFacade.java
+
 
 ## Known Issues
 - No real UI (console only)
